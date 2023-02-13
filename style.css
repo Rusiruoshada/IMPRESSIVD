@@ -111,6 +111,7 @@ body{
 
 .service span {
     color:#ff4d73;
+    transition:0.5s;
 }
 
 .service .row {
@@ -119,4 +120,25 @@ body{
     justify-content: space-evenly;
     margin:0;
     padding:0
+}
+
+.service .our-service-card:hover {
+    background-color: #ff4d73;
+    cursor:pointer;
+    color:#fff !important;
+    box-shadow:-5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition:0.5s;
+}
+
+.service .our-service-card:hover .icon {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.service .our-service-card:hover p{
+    color:#fff
+}
+
+.service .our-service-card:hover span {
+    color:white;
 }
