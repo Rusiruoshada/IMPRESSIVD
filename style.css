@@ -4,7 +4,7 @@ body{
     font-family:sans-serif;
 }
 
-.content-box {
+.header .content-box {
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/cristina-gottardi-KX_214Qr7Ko-unsplash.jpg");
     background-position: center;
     background-size: cover;
@@ -23,6 +23,7 @@ body{
     position: absolute;
     left:10%;
     top:4%;
+    
 
 }
 
@@ -66,3 +67,54 @@ body{
 }
 
 
+.service .content-box {
+    background-color:#f4f2ff ;
+    height: 100vh;
+    width:100%;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 36px;
+    font-weight: 600;
+    color:#000;
+}
+
+.container h2::after {
+    content: " ";
+    background-color: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 50px ;
+}
+
+.service .icon{
+    font-size: 30px;
+    margin:20px auto;
+    padding:18px;
+    height: 70px;
+    width: 70px;
+    border:1px solid #ff4d73;
+    border-radius:50%;
+    color:#ff4d73;
+    
+}
+
+.service p {
+    font-size: 14px;
+    margin-top:8px;
+    color:#777;
+    padding: 10px;
+}
+
+.service span {
+    color:#ff4d73;
+}
+
+.service {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
